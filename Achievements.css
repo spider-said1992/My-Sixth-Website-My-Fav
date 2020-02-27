@@ -1,0 +1,144 @@
+body {
+    background-color: chartreuse;
+    margin: 1;
+    font-style: oblique;
+}
+
+
+p {
+    background-color: chartreuse;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    font-style: oblique;
+}
+
+li {
+    background-color: chartreuse;
+    font-size: 21px;
+    color: orangered;
+    list-style-type: circle;
+    text-align: left;
+}
+
+h1 {
+    text-align: left;
+    font-size: 35px;
+    color: orangered;
+}
+
+
+img {
+    height: 440px;
+    width: 400px;
+    overflow: auto;
+    text-align: right;
+    float: left;
+}
+
+#one {
+    position: inherit;
+    top: -20px;
+    width: auto;
+    height: auto;
+}
+
+#two {
+    position: fixed;
+    top: 0px;
+    height: 30px;
+    width: 60px;
+    right: 0px;
+    visibility: visible;
+}
+
+nav ul li {
+    text-align: left;
+    font-style: oblique;
+    float: left;
+    list-style: none;
+    background-color: mediumvioletred;
+    border-right: 2px solid black;
+
+}
+
+nav ul li {
+    text-align: left;
+    font-style: oblique;
+    float: left;
+    list-style: none;
+    background-color: aqua;
+    border-right: 2px solid black;
+
+}
+
+nav ul a {
+    color: fuchsia;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul {
+    margin-top: 1px;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+nav ul li:last-child {
+    border: none;
+}
+
+nav ul a {
+    color: fuchsia;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul {
+    margin-top: 1px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+nav ul li:last-child {
+    border: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+    padding: 1px 0;
+
+}
+
+nav ul li a:hover {
+    background: hotpink;
+    color: yellow;
+    text-decoration: underline;
+}
+
+#form {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    text-align: left;
+}
+
+
+#footer {
+    background-color: chartreuse;
+    ;
+    color: black;
+    text-align: center;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    background: hotpink;
+    color: yellow;
+}

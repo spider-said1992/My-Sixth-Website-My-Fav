@@ -1,0 +1,154 @@
+img {
+    height: auto;
+    width: auto;
+    overflow: right;
+    float: left;
+    padding: 0px;
+}
+
+
+body {
+    background-color: aquamarine;
+    font-style: oblique;
+}
+
+
+p {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    font-style: oblique;
+}
+
+.input {
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid silver;
+}
+
+#form {
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+#one {
+    background-color: blueviolet;
+    color: mediumblue;
+}
+
+#two {
+    color: deeppink;
+
+}
+
+#tree {
+    position: fixed;
+    top: 0px;
+    height: 30px;
+    width: 60px;
+    right: 0px;
+    visibility: visible;
+}
+
+td {
+    background-color: yellow;
+}
+
+table {
+    background-color: lawngreen;
+    height: 200px;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-left: 1px solid silver;
+    border-top: 1px solid silver;
+    padding: 1px 0px;
+    text-align: center;
+    visibility: visible;
+
+}
+
+nav ul li {
+    text-align: left;
+    font-style: oblique;
+    float: left;
+    list-style: none;
+    background-color: greenyellow;
+    border-right: 2px solid black;
+
+}
+
+nav ul a {
+    color: fuchsia;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul {
+    margin-top: 1px;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+nav ul li:last-child {
+    border: none;
+}
+
+li {
+    font-size: 21px;
+    color: #52dc25;
+    list-style-type: circle;
+}
+
+h1 {
+    text-align: left;
+    font-size: 35px;
+    color: brown;
+}
+
+h2 {
+    text-align: left;
+    font-size: 35px;
+    color: brown;
+}
+
+h3 {
+    text-align: left;
+    font-size: 35px;
+    color: brown;
+}
+
+h4 {
+    text-align: left;
+    font-size: 35px;
+    color: brown;
+}
+
+#footer {
+    background-color: aquamarine;
+    color: balck;
+    text-align: center;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    background: hotpink;
+    color: yellow;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+    padding: 1px 0;
+
+}
+
+nav ul li a:hover {
+    background: hotpink;
+    color: yellow;
+    text-decoration: underline;
+}
